@@ -1,0 +1,185 @@
+@font-face {
+	font-family: 'BebasNeue-Regular';
+	src: url("../fonts/BebasNeue/BebasNeue-Regular.ttf");
+	font-size: 1em;
+}
+html, body {
+    position: relative;
+    height: 100%;
+    margin: 0;
+}
+body {
+    background: #eee;
+    font-family: 'BebasNeue-Regular';
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header-Preto */
+
+header {
+    background-color: #000;
+    width: 100%;
+    z-index: 999;
+    position: fixed;
+    height: 105px;
+    justify-content: center;
+}
+.header-1 {
+    display: flex;
+
+}
+.logo {
+    margin-left: 105px;
+}
+.logo img {
+    margin-left: 120px;
+    margin-top: 2px;
+    width: 225px;
+}
+.redes-sociais ul li {
+    display: flex;
+    margin-left: 20px;
+    float: left;
+}
+.redes-sociais {
+    margin: 20px;
+    padding-left: 42%;
+    margin-top: 2px;
+    height: 0px;
+}
+
+/* Header-Vermelho */
+
+.header-2 {
+    background-color: #E8333A;
+    width: 100%;
+    position: fixed;
+    height: 55px;
+    justify-content: center;
+    border-style: double;
+    border-bottom-color: #000;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-left: 67px;
+    margin-top: -19px
+}
+.menu ul li {
+    display: inline-block;
+    margin-left: 80px;
+    height: 40px;
+    margin-top: 11px;
+    font-family: 'BebasNeue-Regular';
+    font-size: 1.7em ;
+}
+.menu ul li a {
+    color: #FFF;
+}
+
+/* Formulario */
+
+.formulario {
+    padding-top: 165px;
+    padding-left: 100px;
+    display: flex;
+    background-color: #fff;
+}
+.form-group {
+    font-family: 'BebasNeue-Regular';
+    display: grid;
+    background-color: #000;
+    width: 95%;
+    align-items: center;
+    margin-left: 1px;
+}
+.form-group label {
+    color: #fff;
+    background-color: #E8333A;
+    font-size: 1.5em;
+    text-align: center;
+    width: 100%;
+    margin: 2%;
+}
+.form-group input {
+    width: 450px;
+    height: 25px;
+    margin: 2%;
+    border: none;
+}
+.form-group select {
+    width: 453px;
+    height: 25px;
+    margin: 2%;
+    border-style: double;
+    border-color: #000;
+}
+.form-group textarea {
+    width: 94%;
+    margin: 2%;
+    border: none;
+    max-height: 100px;
+    min-height: 100px;
+    max-width: 450px;
+    min-width: 450px;
+}
+.enviar-formulario {
+    width: 100%;
+    height: 30px;
+    margin: 2%;
+    background-color: #E8333A;
+    color: #fff;
+    border: none;
+}
+form {
+    width: 472px;
+    border-style: double;
+    border-color: #E8333A;
+    background-color: #000;
+    z-index: 998;
+}
+
+/* slide */
+
+.swiper {
+    width: 100%;
+    height: 65%;
+    margin-left: 335px;
+    margin-top: -583px;
+    position: relative;
+}
+
+/* Center slide text vertically */
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-slide img {
+    display: block;
+    width: 40%;
+    height: 98%;
+    object-fit: cover;
+    border-style: double;
+    border-color: #E8333A;
+    background-color: #000;
+}
+
+/* Footer */
+

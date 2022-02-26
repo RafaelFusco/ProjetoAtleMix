@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Atlemix</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+        <link rel="stylesheet" href="css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+        <link rel="stylesheet" href="./css/main.css">
+    </head>
+
+    <body>
+                    <!--Header-Preto-->
+
+        <header class="menu-header">
+            <main>
+                <div class="header-1">
+                    <div class="logo">
+                        <img src="./img/logAtlemix.png">
+                    </div>
+                    <div class="redes-sociais">
+                        <ul>
+                          <li>
+                            <a href="none" target="_blank"><img src="./img/facebook.png" /></a>
+                          </li>
+                          <li>
+                            <a href="none" target="_blank"><img src="./img/instagram.png" /></a>
+                          </li>
+                          <li>
+                            <a href="none"><img src="./img/telefone.png" /></a>
+                          </li>
+                        </ul>
+                    </div>
+           </main>
+
+                <!--Header-Vermelho-->
+
+           <main class="col-100 menu-urls">
+            <div class="header-2">
+                <div class="menu">
+                      <ul>
+                        <li><a href="">Inicio</a></li>
+                        <li><a href="">Sobre</a></li>
+                        <li><a href="">Contato</a></li>
+                      </ul>
+                </div>
+            </div>
+          </main>
+        </header>
+
+                <!--Formulario-->
+         <main class="formulario">
+
+          <form method="post" action="form.php">
+
+            <div class="form-group">
+              <label for="nome">Nome completo</label>
+                <input type="text" name="nome" id="nome" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+              <label for="data">Data de nascimento</label>
+                <input type="date" name="nascimento" id="nascimento" class="form-control" max="2022-01-01" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">E-mail valido</label>
+                <input type="text" name="email" id="email" class="form-control" required>
+            </div>
+
+            <div class="form-group">
+              <label for="telefone">Telefone</label>
+                <input type="tel" name="telefone" id="telefone" class="form-control" placeholder="00 123456789" required>
+            </div>
+
+            <div class="form-group">
+              <label for="mensagem">Sexo</label>
+                <select name="sexo" id="sexo" required>
+                  <option value="masculino">Masculino</option>
+                  <option value="masculino">Feminino</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+              <label for="mensagem">Fale sobre o seu esporte</label>
+              <div>
+                  <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea>
+              </div>
+          
+              <button class="enviar-formulario">Enviar</button>
+              
+            </form>
+
+        </main>
+
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="./img/Atlemix.png.jpeg"></div>
+        <div class="swiper-slide"><img src="./img/celular.png"></div>
+        <div class="swiper-slide">Slide 3</div>
+        <div class="swiper-slide">Slide 4</div>
+      </div>
+      <div class="swiper-pagination"></div>
+
+    </div>
+
+
+      
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="./js/swiper-bundle.min.js"></script>
+        <script src="./js/main.js"></script>
+
+    </body>
+  </html>
