@@ -7,33 +7,37 @@
         <link rel="stylesheet" href="css/swiper-bundle.min.css">
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
         <link rel="stylesheet" href="./css/main.css">
+        <link rel="icon" href="./img/IconeAtlemix.fw.png">
     </head>
 
     <body>
-                    <!--Header-Preto-->
+
+                    <!--HEADER-AZUL-CLARO-->
 
         <header class="menu-header">
+          <div class="header-0"></div>  <!--TOPO-AZUL-ESCURO-->
             <main>
-                <div class="header-1">
-                    <div class="logo">
-                        <img src="./img/logAtlemix.png">
-                    </div>
-                    <div class="redes-sociais">
-                        <ul>
-                          <li>
-                            <a href="none" target="_blank"><img src="./img/facebook.png" /></a>
-                          </li>
-                          <li>
-                            <a href="none" target="_blank"><img src="./img/instagram.png" /></a>
-                          </li>
-                          <li>
-                            <a href="none"><img src="./img/telefone.png" /></a>
-                          </li>
-                        </ul>
-                    </div>
+              <div class="header-1">
+                <div class="logo">
+                    <img src="./img/LogoAtlemix3.png">
+                </div>
+                  <div class="redes-sociais">
+                    <ul>
+                      <li>
+                        <a href="none" target="_blank"><img src="./img/facebook.png" /></a>
+                      </li>
+                      <li>
+                        <a href="none" target="_blank"><img src="./img/instagram.png" /></a>
+                      </li>
+                      <li>
+                        <a href="none"><img src="./img/telefone.png" /></a>
+                      </li>
+                    </ul>
+                  </div>
+              </div>
            </main>
 
-                <!--Header-Vermelho-->
+                <!--HEADER-AZUL-ESCURO-->
 
            <main class="col-100 menu-urls">
             <div class="header-2">
@@ -47,66 +51,122 @@
             </div>
           </main>
         </header>
+        
+                <!--FORMULARIO-->
 
-                <!--Formulario-->
-         <main class="formulario">
-
+      <main class="container">
+        <ul>
           <form method="post" action="form.php">
 
-            <div class="form-group">
-              <label for="nome">Nome completo</label>
-                <input type="text" name="nome" id="nome" class="form-control" required>
-            </div>
+                <div class="form-group">
+                  <label for="nome">Nome completo</label>
+                    <input type="text" name="nome" id="nome" class="form-control" required>
+                </div>
 
-            <div class="form-group">
-              <label for="data">Data de nascimento</label>
-                <input type="date" name="nascimento" id="nascimento" class="form-control" max="2022-01-01" required>
-            </div>
+                <div class="form-group">
+                  <label for="data">Data de nascimento</label>
+                    <input type="date" name="nascimento" id="nascimento" class="form-control" max="2022-01-01" required>
+                </div>
 
-            <div class="form-group">
-              <label for="email">E-mail valido</label>
-                <input type="text" name="email" id="email" class="form-control" required>
-            </div>
+                <div class="form-group">
+                  <label for="email">E-mail valido</label>
+                    <input type="text" name="email" id="email" class="form-control" required>
+                </div>
 
-            <div class="form-group">
-              <label for="telefone">Telefone</label>
-                <input type="tel" name="telefone" id="telefone" class="form-control" placeholder="00 123456789" required>
-            </div>
+                <div class="form-group">
+                  <label for="telefone">Telefone</label>
+                    <input type="tel" name="telefone" id="telefone" class="form-control" placeholder="00 123456789" required>
+                </div>
 
-            <div class="form-group">
-              <label for="mensagem">Sexo</label>
-                <select name="sexo" id="sexo" required>
-                  <option value="masculino">Masculino</option>
-                  <option value="masculino">Feminino</option>
-                </select>
-            </div>
+                <div class="form-group">
+                  <label for="mensagem">Sexo</label>
+                    <select name="sexo" id="sexo" required>
+                      <option value="masculino">Masculino</option>
+                      <option value="masculino">Feminino</option>
+                    </select>
+                </div>
 
-            <div class="form-group">
-              <label for="mensagem">Fale sobre o seu esporte</label>
-              <div>
-                  <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea>
-              </div>
-          
-              <button class="enviar-formulario">Enviar</button>
+                <div class="form-group">
+                  <label for="mensagem">Fale sobre o seu esporte</label>
+                  <div>
+                      <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea>
+                  </div>
               
-            </form>
+                  <button class="enviar-formulario">Enviar</button>
+          </form>
+        </ul>
 
-        </main>
-
-    <!-- Swiper -->
-    <div class="swiper mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="./img/Atlemix.png.jpeg"></div>
-        <div class="swiper-slide"><img src="./img/celular.png"></div>
-        <div class="swiper-slide">Slide 3</div>
-        <div class="swiper-slide">Slide 4</div>
-      </div>
-      <div class="swiper-pagination"></div>
-
-    </div>
+                <!--SLIDE-->
 
 
-      
+            <ul class="slide">
+
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="./img/slide1.jpeg" alt=""></div>
+                  <div class="swiper-slide"><img src="./img/slide2.jpeg" alt=""></div>
+                  <div class="swiper-slide"><img src="./img/slide5.jpeg" alt=""></div>
+                </div>
+              </div>
+
+                <section class="atletas">
+                  <h1>Alguns dos atletas classificados para o sul-americano de remo olímpico de 2021</h1>
+                </section>
+
+            </ul>
+      </main>
+
+                <!--SOBRE-->
+
+      <section class="about">
+          <h2>SOBRE</h2>
+      </section>
+
+          <div class="container">
+
+            <div class="video">
+              <video id="video1" width="427px" height="242px" controls>
+                <source src="./mp4/video1.mp4">
+              </video>            
+            </div>
+
+            <div class="about-atlemix">
+              <h3>A Atlemix tem como objetivo dar espaço para atletas de todo o BRASIL
+                 que estão dispostos a compartilhar seus treinos para que outras pessoas possam ver
+                  e apoiar compartilhando ou até mesmo patrocinando os proprios atletas. </h3>
+            </div>
+
+          </div>
+
+                <!--CONTATO-->
+
+          <section class="contact">
+            <h2>CONTATO</h2>
+          </section>
+
+          <div class="container-2">
+            <ul>
+              <li>atlemix@gmail.com</li>
+              <li>21 000000000</li> 
+            </ul>
+            <ul>
+              <li>Responderemos suas mensagens em até 7 dias uteis.</li>
+            </ul>
+          </div>
+
+                <!--FOOTER-->
+
+          <footer>
+
+            <div class="icone-footer"><img src="./img/IconeAtlemix.fw.png" alt=""></div>
+            <div class="pix"> <h3>Você pode nos ajudar a se manter ativos enviando um PIX!</h3><h3>E-mail: atlemix@gmail.com</h3>
+              <h3>Telefone: 21 000000000</h3><h3>Qualquer valor é de grande ajuda. Aproveite e mande uma mensagem !</h3>
+            </div>
+
+              <img src="./img/QR-CODE.fw.png" id="pix-img">
+
+          </footer>
+
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
         <script src="./js/swiper-bundle.min.js"></script>
         <script src="./js/main.js"></script>
